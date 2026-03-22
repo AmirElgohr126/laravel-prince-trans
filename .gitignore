@@ -1,0 +1,52 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Testing
+coverage/
+.phpunit.result.cache
+/.phpunit.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.editorconfig
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+
+# Composer
+composer.lock
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# IDE specific
+__pycache__/
+*.pyc
