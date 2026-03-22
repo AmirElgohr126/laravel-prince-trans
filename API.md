@@ -527,7 +527,7 @@ public function goToStep($step)
 public function resetBuilder()
 ```
 
-**Available Steps:** `'basic'`, `'columns'`, `'preview'`, `'export'`
+**Available Steps:** `'basic'`, `'columns'`, `'preview'`
 
 #### Export
 

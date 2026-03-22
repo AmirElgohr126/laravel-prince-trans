@@ -233,7 +233,6 @@ packages/astrotomic/translatable-migration-builder/
 2. **Basic info step** - Table configuration
 3. **Columns step** - Column management
 4. **Preview step** - Code preview
-5. **Export section** - Download buttons
 
 **Features:**
 - Responsive design

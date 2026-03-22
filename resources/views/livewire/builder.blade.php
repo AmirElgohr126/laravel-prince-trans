@@ -12,7 +12,7 @@
 
         <!-- Progress Indicator -->
         <div class="mb-8 flex justify-center space-x-2">
-            @foreach(['basic' => 'Basic Info', 'columns' => 'Columns', 'preview' => 'Preview', 'export' => 'Export'] as $step => $label)
+            @foreach(['basic' => 'Basic Info', 'columns' => 'Columns', 'preview' => 'Preview'] as $step => $label)
                 <button
                     wire:click="goToStep('{{ $step }}')"
                     @class([

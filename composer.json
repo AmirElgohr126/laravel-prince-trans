@@ -1,5 +1,5 @@
 {
-    "name": "elgohr/trans",
+    "name": "elgohr/laravel-trans-builder",
     "description": "A professional UI-based migration builder for Laravel Translatable package",
     "type": "library",
     "license": "MIT",

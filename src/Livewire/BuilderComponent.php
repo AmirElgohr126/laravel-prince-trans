@@ -26,7 +26,7 @@ class BuilderComponent extends Component
     public $columns = [];
     public $columnIdCounter = 0;
 
-    public $currentStep = 'basic'; // basic, columns, preview, export
+    public $currentStep = 'basic'; // basic, columns, preview
     public $previewMigrationCode = '';
     public $previewModelCode = '';
 
@@ -168,7 +168,7 @@ class BuilderComponent extends Component
     }
 
     /**
-     * Validate data required for preview/export generation
+     * Validate data required for preview generation
      */
     protected function validateForGeneration(): bool
     {
