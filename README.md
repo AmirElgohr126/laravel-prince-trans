@@ -106,6 +106,20 @@ php artisan translatable:builder --serve
       - `{Model}EloquentRepository/Eloquent{Model}Repository.php`
       - `{Model}Seeder.php` in `database/seeders`
 
+## 🖼️ Interface Screenshots
+
+### Table Configuration (Step 1)
+
+![Table Configuration](./table_builder.png)
+
+### Columns Builder (Step 2)
+
+![Columns Builder](./column_builder.png)
+
+### Generated Migration Output
+
+![Generated Migration](./example_builder.png)
+
 ## 🎨 Usage Examples
 
 ### Building a Blog System
