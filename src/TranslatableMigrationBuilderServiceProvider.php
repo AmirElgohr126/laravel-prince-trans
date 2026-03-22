@@ -1,6 +1,6 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder;
+namespace Prince\Trans;
 
 use Illuminate\Support\ServiceProvider;
 use Astrotomic\TranslatableMigrationBuilder\Commands\LaunchBuilderCommand;
