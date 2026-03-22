@@ -14,7 +14,7 @@ Astrotomic Translatable is optional.
 ### 1. Install Package
 
 ```bash
-composer require elgohr/trans
+composer require elgohr/laravel-trans-builder
 ```
 
 ### 2. Access the Builder
