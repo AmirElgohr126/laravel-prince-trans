@@ -17,7 +17,7 @@ Astrotomic Laravel Translatable is optional. If installed, generated models incl
 ### 1. Install via Composer
 
 ```bash
-composer require prince/trans
+composer require elgohr/trans
 ```
 
 ### 2. Install Required Dependencies (if not already installed)

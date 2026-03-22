@@ -1,14 +1,14 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder\Livewire;
+namespace Elgohr\Trans\Livewire;
 
 use Livewire\Component;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use Astrotomic\TranslatableMigrationBuilder\Builders\Table;
-use Astrotomic\TranslatableMigrationBuilder\Builders\Column;
-use Astrotomic\TranslatableMigrationBuilder\Generators\MigrationGenerator;
-use Astrotomic\TranslatableMigrationBuilder\Generators\ModelGenerator;
+use Elgohr\Trans\Builders\Table;
+use Elgohr\Trans\Builders\Column;
+use Elgohr\Trans\Generators\MigrationGenerator;
+use Elgohr\Trans\Generators\ModelGenerator;
 
 class BuilderComponent extends Component
 {

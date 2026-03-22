@@ -1,6 +1,6 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder\Http\Controllers;
+namespace Elgohr\Trans\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\View\View;

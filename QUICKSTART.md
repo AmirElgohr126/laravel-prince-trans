@@ -14,7 +14,7 @@ Astrotomic Translatable is optional.
 ### 1. Install Package
 
 ```bash
-composer require prince/trans
+composer require elgohr/trans
 ```
 
 ### 2. Access the Builder

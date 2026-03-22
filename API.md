@@ -16,7 +16,7 @@ Complete API reference for the Translatable Migration Builder package.
 
 Represents a single database column with full configuration options.
 
-**Namespace:** `Astrotomic\TranslatableMigrationBuilder\Builders\Column`
+**Namespace:** `Elgohr\Trans\Builders\Column`
 
 ### Constructor
 
@@ -205,7 +205,7 @@ $array = $column->toArray();
 
 Represents a complete table structure with multiple columns.
 
-**Namespace:** `Astrotomic\TranslatableMigrationBuilder\Builders\Table`
+**Namespace:** `Elgohr\Trans\Builders\Table`
 
 ### Constructor
 
@@ -347,7 +347,7 @@ $table = Table::fromArray($tableData);
 
 Generates Laravel migration PHP code from a Table object.
 
-**Namespace:** `Astrotomic\TranslatableMigrationBuilder\Generators\MigrationGenerator`
+**Namespace:** `Elgohr\Trans\Generators\MigrationGenerator`
 
 ### Methods
 
@@ -395,8 +395,8 @@ Protected method used internally.
 ### Complete Example
 
 ```php
-use Astrotomic\TranslatableMigrationBuilder\Builders\{Table, Column};
-use Astrotomic\TranslatableMigrationBuilder\Generators\MigrationGenerator;
+use Elgohr\Trans\Builders\{Table, Column};
+use Elgohr\Trans\Generators\MigrationGenerator;
 
 // Build table
 $table = new Table('products');
@@ -430,7 +430,7 @@ file_put_contents("database/migrations/{$filename}", $code);
 
 Generates Laravel model PHP code with Translatable integration.
 
-**Namespace:** `Astrotomic\TranslatableMigrationBuilder\Generators\ModelGenerator`
+**Namespace:** `Elgohr\Trans\Generators\ModelGenerator`
 
 ### Methods
 
@@ -461,8 +461,8 @@ $code = $generator->generate($table);
 ### Complete Example
 
 ```php
-use Astrotomic\TranslatableMigrationBuilder\Builders\{Table, Column};
-use Astrotomic\TranslatableMigrationBuilder\Generators\ModelGenerator;
+use Elgohr\Trans\Builders\{Table, Column};
+use Elgohr\Trans\Generators\ModelGenerator;
 
 // Build table (as above)
 $table = new Table('products');
@@ -482,7 +482,7 @@ file_put_contents('app/Models/Product.php', $code);
 
 Livewire component managing the entire builder UI and interactions.
 
-**Namespace:** `Astrotomic\TranslatableMigrationBuilder\Livewire\BuilderComponent`
+**Namespace:** `Elgohr\Trans\Livewire\BuilderComponent`
 
 ### Public Properties
 
@@ -598,8 +598,8 @@ $modelGenerator = app('translatable-builder.model-generator');
 ```php
 <?php
 
-use Astrotomic\TranslatableMigrationBuilder\Builders\{Table, Column};
-use Astrotomic\TranslatableMigrationBuilder\Generators\{
+use Elgohr\Trans\Builders\{Table, Column};
+use Elgohr\Trans\Generators\{
     MigrationGenerator,
     ModelGenerator
 };

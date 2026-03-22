@@ -34,7 +34,7 @@ A professional UI-based migration builder for Laravel that simplifies creating d
 ### 1. Install via Composer
 
 ```bash
-composer require prince/trans
+composer require elgohr/trans
 ```
 
 ### 2. Publish Configuration (Optional)

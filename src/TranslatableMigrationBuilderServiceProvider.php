@@ -1,10 +1,10 @@
 <?php
 
-namespace Prince\Trans;
+namespace Elgohr\Trans;
 
 use Illuminate\Support\ServiceProvider;
-use Astrotomic\TranslatableMigrationBuilder\Commands\LaunchBuilderCommand;
-use Astrotomic\TranslatableMigrationBuilder\Livewire\BuilderComponent;
+use Elgohr\Trans\Commands\LaunchBuilderCommand;
+use Elgohr\Trans\Livewire\BuilderComponent;
 use Livewire\Livewire;
 
 class TranslatableMigrationBuilderServiceProvider extends ServiceProvider

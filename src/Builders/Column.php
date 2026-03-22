@@ -1,6 +1,6 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder\Builders;
+namespace Elgohr\Trans\Builders;
 
 class Column
 {

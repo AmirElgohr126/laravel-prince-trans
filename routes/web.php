@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Astrotomic\TranslatableMigrationBuilder\Http\Controllers\BuilderController;
+use Elgohr\Trans\Http\Controllers\BuilderController;
 
 Route::middleware(config('translatable-builder.middleware', ['web']))
     ->prefix(config('translatable-builder.route_prefix', 'translatable-builder'))

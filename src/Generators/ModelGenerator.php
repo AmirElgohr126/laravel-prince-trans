@@ -1,8 +1,8 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder\Generators;
+namespace Elgohr\Trans\Generators;
 
-use Astrotomic\TranslatableMigrationBuilder\Builders\Table;
+use Elgohr\Trans\Builders\Table;
 use Illuminate\Support\Str;
 
 class ModelGenerator

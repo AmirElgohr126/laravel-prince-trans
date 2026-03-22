@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Prince\\Trans\\": "src/"
+            "Elgohr\\Trans\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Prince\\Trans\\Tests\\": "tests/"
+            "Elgohr\\Trans\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Prince\\Trans\\TranslatableMigrationBuilderServiceProvider"
+                "Elgohr\\Trans\\TranslatableMigrationBuilderServiceProvider"
             ]
         }
     }

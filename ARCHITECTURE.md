@@ -449,7 +449,7 @@ public function boot()
 ```php
 namespace App\Generators;
 
-use Astrotomic\TranslatableMigrationBuilder\Builders\Table;
+use Elgohr\Trans\Builders\Table;
 
 class CustomGenerator
 {

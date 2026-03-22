@@ -1,9 +1,9 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder\Generators;
+namespace Elgohr\Trans\Generators;
 
-use Astrotomic\TranslatableMigrationBuilder\Builders\Table;
-use Astrotomic\TranslatableMigrationBuilder\Builders\Column;
+use Elgohr\Trans\Builders\Table;
+use Elgohr\Trans\Builders\Column;
 use Illuminate\Support\Str;
 
 class MigrationGenerator

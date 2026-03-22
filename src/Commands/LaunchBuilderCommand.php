@@ -1,6 +1,6 @@
 <?php
 
-namespace Astrotomic\TranslatableMigrationBuilder\Commands;
+namespace Elgohr\Trans\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\URL;
